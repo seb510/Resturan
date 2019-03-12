@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <!--делаем шапку  ЛОГО-->
+                    <div class="col-lg3">
+                        <img class=" logo animated fadeInLeft" src="img/logo.png" alt="">
+                    </div>
+                    <!--МЕНЮ-->
+                    <div class="col-lg-6">
+                        <nav>
+                            <ul class="menu d-flex justify-content-between animated fadeInDown">
+                                <li class="menu__item">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Menu</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Reservation</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">recipe</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">blog</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">pages</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!--делаем КНОПКУ в шапке-->
+                    </div>
+                    <div class="col-lg-3">
+                        <button class="book cta d-flex justify-content-center animated fadeInRight">
+                            <span class="book_icon"></span>
+                            Book your table
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="container">
+                <div class="row">
+                    <!--НАДПИСЬ-->
+                    <div class="col-lg-12">
+                        <div class="title animated fadeInLeft">
+                            <h1 class="title__heading">
+                                Teast your fav dish
+                            </h1>
+                            <p class="title__desc">
+                                from <span class="yellow">luxury restaurant.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Вторую секцию  стелефоном-->
+    <section class="call" id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="phone d-flex ml-auto mr-auto animated slideInUp"> <!-- раставляет блок по центру-->
+                        <div class="phone__text">
+                            Call us Now for
+                            <span class="yellow">Home Delivery</span>
+                        </div>
+                        <div class="phone__digits">
+                            1-008-006-007
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Третью секцию про ресторан-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="history animated bounceInLeft">
+                        <h2 class="history__title">
+                            About Restaurant
+                        </h2>
+                        <p class="history__text">
+                            Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also
+                            the leap into electronic typesetting, remaining
+                            essentially unchanged...
+                        </p>
+                        <!--кнопочка-->
+                        <a href="#" class="cta history__button">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="food-images food-images-down animated bounceInRight">
+                        <img src="img/food1.jpg" alt="pasta" class="food-images__item">
+                        <img src="img/food2.jpg" alt="chicken" class="food-images__item">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="food-images animated bounceInRight">
+                        <img src="img/food3.jpg" alt="meat" class="food-images__item">
+                        <img src="img/food4.jpg" alt="fish" class="food-images__item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Четверт секцию две карточки с ценами-->
+    <section class="special" id="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="special-title animated bounceInUp">
+                        Today Special
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--Первая карточка-->
+                <div class="col-lg-6">
+                    <div class="food animated fadeInRight">
+                        <img src="img/dish1.jpg" alt="dish" class="food__img img-fluid">
+                        <h3 class="food__title">
+                            Food Name one
+                        </h3>
+                        <p class="food__desc">
+                            printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled.
+                        </p>
+                        <div class="food__details d-flex">
+                            <div class="food__del">
+                                Home <span>Delivery</span>
+                            </div>
+                            <div class="food__phone">
+                                1-008-006-006
+
+                            </div>
+                            <div class="food__price yellow ml-auto">
+                                <sup> <small>$</small></sup>
+                                89.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Вторая карточка-->
+                <div class="col-lg-6">
+                    <div class="food animated fadeInLeft">
+                        <img src="img/dish.jpg" alt="dish" class="food__img img-fluid">
+                        <h3 class="food__title">
+                            Food Name two
+                        </h3>
+                        <p class="food__desc">
+                            printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled.
+                        </p>
+                        <div class="food__details d-flex">
+                            <div class="food__del">
+                                Home <span>Delivery</span>
+                            </div>
+                            <div class="food__phone">
+                                1-008-006-006
+
+                            </div>
+                            <div class="food__price yellow ml-auto">
+                                <sup> <small>$</small></sup>
+                                99.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="socials d-flex justify-content-center">
+                        <li class="socials__item socials__item_fb">
+                            <a href="#"></a>
+                        </li>
+                        <li class="socials__item socials__item_tw">
+                            <a href="#"></a>
+                        </li>
+                        <li class="socials__item socials__item_g">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="line"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="credits">
+                        2018 ©   All rights reserved
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
