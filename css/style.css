@@ -362,6 +362,12 @@ p{
 
     }
 
+    .food{
+        margin-bottom: 0;
+        margin-top: 20px;
+        width: 120%;
+    }
+
     .food__desc{
         font-size: 10px;
         padding: 5px;
