@@ -1,3 +1,9 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
 body {
     font-family: 'Sintony', sans-serif;
     color: #7d8287;
@@ -319,7 +325,6 @@ p{
     .logo{
         display: block;
         margin-left: 75px;
-
     }
 
     .menu{
@@ -365,7 +370,7 @@ p{
     .food{
         margin-bottom: 0;
         margin-top: 20px;
-        width: 120%;
+        width: 100%;
     }
 
     .food__desc{
